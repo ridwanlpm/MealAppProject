@@ -1,0 +1,209 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow-x: hidden;
+}
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+/*main header style*/
+#header {
+    background: #3F8200;
+    color: white;
+    /* display:inline !important; */
+}
+#header>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden !important;
+     display: inline-block !important; 
+    width: 100%;
+}
+/* h1{
+    color:black;
+} */
+#header>ul>li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden !important;
+     display: inline-block !important; 
+     padding:20px;
+}
+
+#header>ul>li>a{
+    color: white;
+}
+/* main background style */
+#jumbo{
+    height: 90vh;
+    width: 100%;
+    /* margin: 0px;     !WAS REMOVED FOR LOWER ".bg's" to take effect!
+    background:linear-gradient( rgba(63,130,  0, 0.8), rgba(136,124,175, 0.8)), url('../images/img1.jpg'); */
+}
+#jumbo2{
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    background:linear-gradient( rgba(116,237,  0, 0.8), rgba(136,124,175, 0.8)), url('../images/img1.jpg');
+}
+#jumbo>div>h1 {
+  font-size: 75px;
+  font-weight: 400;
+}
+#jumbo>div>h1,h3{
+    margin-top: -1%;
+    color: white;
+}
+#jumbo>div:nth-child(2)>div>button {
+  margin-top: 10% !important;
+}
+#jumbo2{
+    height: 100vh;
+    width: 100%;
+}
+.bg{
+    margin: 0px;
+    background:linear-gradient( rgba(63,130,  0, 0.8), rgba(136,124,175, 0.8)), url('../images/img1.jpg');
+}
+.bg2{
+    margin: 0px;
+    background:linear-gradient( rgba(83,170,  0, 0.8), rgba(136,124,175, 0.8)), url('../images/img2.jpg');
+}
+.bg3{
+    margin: 0px;
+    background:linear-gradient( rgba(83,170,  0, 0.8), rgba(136,124,175, 0.8)), url('../images/img3.jpg');
+}
+.bg4{
+    margin: 0px;
+    background:linear-gradient( rgba(83,170,  0, 0.8), rgba(136,124,175, 0.8)), url('../images/img4.jpg');
+}
+.bg5{
+    margin: 0px;
+    background:linear-gradient( rgba(83,170,  0, 0.8), rgba(136,124,175, 0.8)), url('../images/img5.jpg');
+}
+/* #jumbo>div>h1 {
+  font-size: 75px;
+  font-weight: 400;
+}
+#jumbo>div>h1,h3{
+    margin-top: -1%;
+    color: white;
+}
+#jumbo>div:nth-child(2)>div>button {
+  margin-top: 10% !important;
+} */
+#check-out{
+    margin-right:25%
+
+}
+
+/* Footer style */
+#footer {
+    background:#3F8200;
+    width:100%;
+    height:50px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    color: white;
+}
+#footer>span{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 1%;
+}
+#footer>p{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 1%;
+}
+/* button style */
+.btn {
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 32px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  .btn:hover {
+    border: 3px solid #AAAA39;
+    background-color: white;
+    color: #AAAA39;
+  }
+  .btn-small {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 0.3s;
+  }
+  .btn-small:hover {
+    border: 2px solid #AAAA39;
+    background-color: white;
+    color: #AAAA39;
+  }
+  .btn-primary {
+    background-color: rgb(52, 116, 71);
+  }
+  /* modal generic styles */
+.modal-design {
+    margin: 0 auto;
+    width: 70%;
+    padding: 5%;
+  }
+  .modal-design>p {
+    position: absolute;
+    top: -25px;
+    right: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: bold;
+    color: red;
+  }
+  .point-it {
+    cursor: pointer;
+  }
+  .modal-design  button {
+    position : relative;
+    left: 70px;
+    width: 50%;
+  }
+  .hidden {
+    display: none;
+  }
+  #login {
+    margin-top: 15%;
+  }
+  .form-group {
+    padding: 5px;
+  }
+  .form-control {
+    height: 20px;
+    width: 100%;
+}
+input {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #3F8200;
+  }
