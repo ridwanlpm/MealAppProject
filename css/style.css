@@ -187,6 +187,9 @@ h1{
     left: 70px;
     width: 50%;
   }
+  .form-group > label{
+      color:black;
+}
   .hidden {
     display: none;
   }
