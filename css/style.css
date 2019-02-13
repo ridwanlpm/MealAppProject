@@ -23,9 +23,9 @@ body {
      display: inline-block !important; 
     width: 100%;
 }
-/* h1{
+h1{
     color:black;
-} */
+}
 #header>ul>li{
     list-style-type: none;
     margin: 0;
@@ -167,6 +167,9 @@ body {
     width: 70%;
     padding: 5%;
   }
+  .modal-design > h1 {
+      color:black;
+  }
   .modal-design>p {
     position: absolute;
     top: -25px;
@@ -184,6 +187,9 @@ body {
     left: 70px;
     width: 50%;
   }
+  .form-group > label{
+      color:black;
+}
   .hidden {
     display: none;
   }
